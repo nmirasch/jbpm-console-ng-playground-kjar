@@ -1,0 +1,218 @@
+
+<form id="675859005">
+<property name="subject" value=""/>
+<property name="name" value="FormulasTest-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="child_bigDecimal1" type="InputTextBigDecimal" id="1937298966">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bigDecimal1 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigDecimal1"/>
+<property name="outputBinding" value="out_child/bigDecimal1"/>
+</field>
+<field position="2" name="child_bigDecimal2" type="InputTextBigDecimal" id="1127990735">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;bigDecimal2 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigDecimal2"/>
+<property name="outputBinding" value="out_child/bigDecimal2"/>
+</field>
+<field position="3" name="child_bigDecimal3" type="InputTextBigDecimal" id="25030477">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;bigDecimal3 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigDecimal3"/>
+<property name="outputBinding" value="out_child/bigDecimal3"/>
+</field>
+<field position="4" name="child_bigInteger1" type="InputTextBigInteger" id="1647399485">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;bigInteger1 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigInteger1"/>
+<property name="outputBinding" value="out_child/bigInteger1"/>
+</field>
+<field position="5" name="child_bigInteger2" type="InputTextBigInteger" id="253113130">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;bigInteger2 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigInteger2"/>
+<property name="outputBinding" value="out_child/bigInteger2"/>
+</field>
+<field position="6" name="child_bigInteger3" type="InputTextBigInteger" id="274608414">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;bigInteger3 (child)quot;"/>
+<property name="inputBinding" value="in_child/bigInteger3"/>
+<property name="outputBinding" value="out_child/bigInteger3"/>
+</field>
+<field position="7" name="child_boolean1" type="CheckBox" id="789856810">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;boolean1 (child)quot;"/>
+<property name="inputBinding" value="in_child/boolean1"/>
+<property name="outputBinding" value="out_child/boolean1"/>
+</field>
+<field position="8" name="child_boolean2" type="CheckBox" id="652134687">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;boolean2 (child)quot;"/>
+<property name="inputBinding" value="in_child/boolean2"/>
+<property name="outputBinding" value="out_child/boolean2"/>
+</field>
+<field position="9" name="child_boolean3" type="CheckBox" id="1834577297">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;boolean3 (child)quot;"/>
+<property name="inputBinding" value="in_child/boolean3"/>
+<property name="outputBinding" value="out_child/boolean3"/>
+</field>
+<field position="10" name="child_date1" type="InputDate" id="1348404729">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;date1 (child)quot;"/>
+<property name="inputBinding" value="in_child/date1"/>
+<property name="outputBinding" value="out_child/date1"/>
+</field>
+<field position="11" name="child_date2" type="InputDate" id="1353821147">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;date2 (child)quot;"/>
+<property name="inputBinding" value="in_child/date2"/>
+<property name="outputBinding" value="out_child/date2"/>
+</field>
+<field position="12" name="child_date3" type="InputDate" id="1185809642">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;date3 (child)quot;"/>
+<property name="inputBinding" value="in_child/date3"/>
+<property name="outputBinding" value="out_child/date3"/>
+</field>
+<field position="13" name="child_double1" type="InputTextDouble" id="1489386148">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;double1 (child)quot;"/>
+<property name="inputBinding" value="in_child/double1"/>
+<property name="outputBinding" value="out_child/double1"/>
+</field>
+<field position="14" name="child_double2" type="InputTextDouble" id="288598840">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;double2 (child)quot;"/>
+<property name="inputBinding" value="in_child/double2"/>
+<property name="outputBinding" value="out_child/double2"/>
+</field>
+<field position="15" name="child_double3" type="InputTextDouble" id="606153577">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;double3 (child)quot;"/>
+<property name="inputBinding" value="in_child/double3"/>
+<property name="outputBinding" value="out_child/double3"/>
+</field>
+<field position="16" name="child_float1" type="InputTextFloat" id="294003348">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;float1 (child)quot;"/>
+<property name="inputBinding" value="in_child/float1"/>
+<property name="outputBinding" value="out_child/float1"/>
+</field>
+<field position="17" name="child_float2" type="InputTextFloat" id="1700028759">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;float2 (child)quot;"/>
+<property name="inputBinding" value="in_child/float2"/>
+<property name="outputBinding" value="out_child/float2"/>
+</field>
+<field position="18" name="child_float3" type="InputTextFloat" id="950826650">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;float3 (child)quot;"/>
+<property name="inputBinding" value="in_child/float3"/>
+<property name="outputBinding" value="out_child/float3"/>
+</field>
+<field position="19" name="child_integer1" type="InputTextInteger" id="1449559107">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;integer1 (child)quot;"/>
+<property name="inputBinding" value="in_child/integer1"/>
+<property name="outputBinding" value="out_child/integer1"/>
+</field>
+<field position="20" name="child_integer2" type="InputTextInteger" id="1131549602">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;integer2 (child)quot;"/>
+<property name="inputBinding" value="in_child/integer2"/>
+<property name="outputBinding" value="out_child/integer2"/>
+</field>
+<field position="21" name="child_integer3" type="InputTextInteger" id="268064156">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;integer3 (child)quot;"/>
+<property name="inputBinding" value="in_child/integer3"/>
+<property name="outputBinding" value="out_child/integer3"/>
+</field>
+<field position="22" name="child_long1" type="InputTextLong" id="762330169">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;long1 (child)quot;"/>
+<property name="inputBinding" value="in_child/long1"/>
+<property name="outputBinding" value="out_child/long1"/>
+</field>
+<field position="23" name="child_long2" type="InputTextLong" id="1332655679">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;long2 (child)quot;"/>
+<property name="inputBinding" value="in_child/long2"/>
+<property name="outputBinding" value="out_child/long2"/>
+</field>
+<field position="24" name="child_long3" type="InputTextLong" id="459590468">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;long3 (child)quot;"/>
+<property name="inputBinding" value="in_child/long3"/>
+<property name="outputBinding" value="out_child/long3"/>
+</field>
+<field position="25" name="child_short1" type="InputTextShort" id="1903440344">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;short1 (child)quot;"/>
+<property name="inputBinding" value="in_child/short1"/>
+<property name="outputBinding" value="out_child/short1"/>
+</field>
+<field position="26" name="child_short2" type="InputTextShort" id="1893730280">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;short2 (child)quot;"/>
+<property name="inputBinding" value="in_child/short2"/>
+<property name="outputBinding" value="out_child/short2"/>
+</field>
+<field position="27" name="child_short3" type="InputTextShort" id="1330239373">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;short3 (child)quot;"/>
+<property name="inputBinding" value="in_child/short3"/>
+<property name="outputBinding" value="out_child/short3"/>
+</field>
+<field position="28" name="child_string1" type="InputText" id="550467401">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;string1 (child)quot;"/>
+<property name="inputBinding" value="in_child/string1"/>
+<property name="outputBinding" value="out_child/string1"/>
+</field>
+<field position="29" name="child_string2" type="InputText" id="333125288">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;string2 (child)quot;"/>
+<property name="inputBinding" value="in_child/string2"/>
+<property name="outputBinding" value="out_child/string2"/>
+</field>
+<field position="30" name="child_string3" type="InputText" id="28640950">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;string3 (child)quot;"/>
+<property name="inputBinding" value="in_child/string3"/>
+<property name="outputBinding" value="out_child/string3"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="296136585">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;h1 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;TASK FORMULASTEST&lt;/h1&gt;
+quot;quot;esquot;,quot;&lt;h1 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;TASK FORMULASTEST&lt;/h1&gt;
+quot;"/>
+</field>
+<dataHolder inputId="in_child" name="#0000A0" type="dataModelerEntry" outId="out_child" value="formmodelertest.TestChild" id="child"/>
+</form>

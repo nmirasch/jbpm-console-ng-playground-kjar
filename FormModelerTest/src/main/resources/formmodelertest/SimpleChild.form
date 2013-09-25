@@ -1,0 +1,106 @@
+
+<form id="975975880">
+<property name="subject" value=""/>
+<property name="name" value="SimpleChild.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="NOVAL_id_ch_bigDec" type="InputTextBigDecimal" id="2050078003">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_bigDec (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_bigDec"/>
+<property name="outputBinding" value="NOVAL_out/ch_bigDec"/>
+</field>
+<field position="3" name="NOVAL_id_ch_bigInt" type="InputTextBigInteger" id="1230474212">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_bigInt (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_bigInt"/>
+<property name="outputBinding" value="NOVAL_out/ch_bigInt"/>
+</field>
+<field position="1" name="NOVAL_id_ch_boolean" type="CheckBox" id="1048339640">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_boolean (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_boolean"/>
+<property name="outputBinding" value="NOVAL_out/ch_boolean"/>
+</field>
+<field position="5" name="NOVAL_id_ch_date" type="InputDate" id="359837957">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_date (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_date"/>
+<property name="outputBinding" value="NOVAL_out/ch_date"/>
+</field>
+<field position="6" name="NOVAL_id_ch_double" type="InputTextDouble" id="983945537">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_double (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_double"/>
+<property name="outputBinding" value="NOVAL_out/ch_double"/>
+</field>
+<field position="7" name="NOVAL_id_ch_email" type="InputText" id="664710320">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_email (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_email"/>
+<property name="outputBinding" value="NOVAL_out/ch_email"/>
+</field>
+<field position="8" name="NOVAL_id_ch_float" type="InputTextFloat" id="1834075593">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_float (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_float"/>
+<property name="outputBinding" value="NOVAL_out/ch_float"/>
+</field>
+<field position="9" name="NOVAL_id_ch_integer" type="InputTextInteger" id="1800877179">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_integer (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_integer"/>
+<property name="outputBinding" value="NOVAL_out/ch_integer"/>
+</field>
+<field position="10" name="NOVAL_id_ch_long" type="InputTextLong" id="119893193">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_long (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_long"/>
+<property name="outputBinding" value="NOVAL_out/ch_long"/>
+</field>
+<field position="11" name="NOVAL_id_ch_longText" type="InputText" id="1945835178">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_longText (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_longText"/>
+<property name="outputBinding" value="NOVAL_out/ch_longText"/>
+</field>
+<field position="12" name="NOVAL_id_ch_short" type="InputTextShort" id="449484289">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_short (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_short"/>
+<property name="outputBinding" value="NOVAL_out/ch_short"/>
+</field>
+<field position="13" name="NOVAL_id_ch_shortDate" type="InputDate" id="57825065">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_shortDate (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_shortDate"/>
+<property name="outputBinding" value="NOVAL_out/ch_shortDate"/>
+</field>
+<field position="4" name="NOVAL_id_ch_str" type="InputText" id="1524674620">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;ch_str (NOVAL_id)quot;"/>
+<property name="inputBinding" value="NOVAL_in/ch_str"/>
+<property name="outputBinding" value="NOVAL_out/ch_str"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1070517078">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;CHILD WITHOUT VALIDATIONS&lt;/div&gt;
+quot;quot;esquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;CHILD WITHOUT VALIDATIONS&lt;/div&gt;
+quot;"/>
+</field>
+<dataHolder inputId="NOVAL_in" name="#FF54A7" type="dataModelerEntry" outId="NOVAL_out" value="formmodelertest.Child" id="NOVAL_id"/>
+</form>

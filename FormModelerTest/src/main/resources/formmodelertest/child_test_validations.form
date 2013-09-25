@@ -1,0 +1,275 @@
+
+<form id="1634716667">
+<property name="subject" value=""/>
+<property name="name" value="child_test_validations.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="id_child_ch_bigDec" type="InputTextBigDecimal" id="1838657067">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_bigDec (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;Error message BigDec requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text message BigDec requiredquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="10"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="inputBinding" value="in_child/ch_bigDec"/>
+<property name="outputBinding" value="out_child/ch_bigDec"/>
+</field>
+<field position="2" name="id_child_ch_bigInt" type="InputTextBigInteger" id="867276206">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_bigInt (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;Big integer is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;Help text for Big integerquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="12"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="inputBinding" value="in_child/ch_bigInt"/>
+<property name="outputBinding" value="out_child/ch_bigInt"/>
+</field>
+<field position="3" name="id_child_ch_boolean" type="CheckBox" id="1194837627">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_boolean (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;Error boolean requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;Help text for booleanquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_boolean"/>
+<property name="outputBinding" value="out_child/ch_boolean"/>
+</field>
+<field position="4" name="id_child_ch_date" type="InputDate" id="2141779127">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_date (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;Error date requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for datequot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="14"/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_date"/>
+<property name="outputBinding" value="out_child/ch_date"/>
+</field>
+<field position="5" name="id_child_ch_double" type="InputTextDouble" id="1500711732">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_double (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;double requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for doublequot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="16"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_double"/>
+<property name="outputBinding" value="out_child/ch_double"/>
+</field>
+<field position="6" name="id_child_ch_email" type="InputTextEmail" id="1543615479">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_email (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;email requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help tex for emailquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="18"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_email"/>
+<property name="outputBinding" value="out_child/ch_email"/>
+</field>
+<field position="7" name="id_child_ch_float" type="InputTextFloat" id="205797360">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_float (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;float requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for floatquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="20"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="inputBinding" value="in_child/ch_float"/>
+<property name="outputBinding" value="out_child/ch_float"/>
+</field>
+<field position="8" name="id_child_ch_integer" type="InputTextInteger" id="745802750">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_integer (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;integer requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for integerquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="22"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_integer"/>
+<property name="outputBinding" value="out_child/ch_integer"/>
+</field>
+<field position="9" name="id_child_ch_long" type="InputTextLong" id="8513609">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_long (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;long requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;helptext for longquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="24"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_long"/>
+<property name="outputBinding" value="out_child/ch_long"/>
+</field>
+<field position="10" name="id_child_ch_longText" type="InputTextArea" id="1263936656">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value="4"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_longText (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;long text requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="26"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_longText"/>
+<property name="outputBinding" value="out_child/ch_longText"/>
+</field>
+<field position="11" name="id_child_ch_short" type="InputTextShort" id="578556624">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="height" value=""/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_short (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;short requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for shortquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="30"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="inputBinding" value="in_child/ch_short"/>
+<property name="outputBinding" value="out_child/ch_short"/>
+</field>
+<field position="12" name="id_child_ch_shortDate" type="InputShortDate" id="1500055389">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_shortDate (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;shortDate requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="32"/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_shortDate"/>
+<property name="outputBinding" value="out_child/ch_shortDate"/>
+</field>
+<field position="13" name="id_child_ch_str" type="InputText" id="1450810602">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#fe0"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#fe0quot;quot;enquot;,quot;ch_str (id_child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;str requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;help text for strquot;quot;esquot;,quot;quot;"/>
+<property name="disabled" value="false"/>
+<property name="readonly" value="false"/>
+<property name="size" value="36"/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#fea"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
+<property name="inputBinding" value="in_child/ch_str"/>
+<property name="outputBinding" value="out_child/ch_str"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="161054362">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;p&gt;CHILD_DETAILS WITH VALIDATIONS&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;CHILD_DETAILS WITH VALIDATIONS&lt;/p&gt;
+quot;"/>
+</field>
+<dataHolder inputId="in_child" name="#B29FE4" type="dataModelerEntry" outId="out_child" value="formmodelertest.Child" id="id_child"/>
+</form>
