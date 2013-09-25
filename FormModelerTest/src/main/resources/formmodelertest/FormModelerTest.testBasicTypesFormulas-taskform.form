@@ -102,7 +102,7 @@
 <property name="size" value=""/>
 <property name="formula" value="={child_bigDecimal2} "/>
 <property name="rangeFormula" value=""/>
-<property name="pattern" value="[0,9]"/>
+<property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
 <property name="inputBinding" value=""/>
