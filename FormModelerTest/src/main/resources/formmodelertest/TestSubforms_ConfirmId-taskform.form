@@ -1,0 +1,40 @@
+
+<form id="805317182">
+<property name="subject" value=""/>
+<property name="name" value="TestSubforms_ConfirmId-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="childDetails_child" type="Subform" id="17116058">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value="background:#F0F; "/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;background:#F0F; quot;quot;enquot;,quot;child (childDetails)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;Required subformquot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value="background:#FF0; "/>
+<property name="inputBinding" value="in_child/child"/>
+<property name="outputBinding" value="out_child/child"/>
+<property name="defaultSubform" value="SimpleChild.form"/>
+</field>
+<field position="1" name="childDetails_identifier" type="InputText" id="1941554195">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;identifier (childDetails)quot;"/>
+<property name="inputBinding" value="in_child/identifier"/>
+<property name="outputBinding" value="out_child/identifier"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1734191498">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value=""/>
+<property name="htmlContent" value="quot;enquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;Required subform and display poperties&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;Required subform and display poperties&lt;/h2&gt;
+quot;"/>
+</field>
+<dataHolder inputId="in_child" name="#0000A0" type="dataModelerEntry" outId="out_child" value="formmodelertest.ChildDetails" id="childDetails"/>
+</form>

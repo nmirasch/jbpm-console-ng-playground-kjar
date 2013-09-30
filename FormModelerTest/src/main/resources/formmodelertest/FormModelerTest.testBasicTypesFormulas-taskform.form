@@ -94,13 +94,13 @@
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;bigInteger1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;bigInteger1 (child)quot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
 <property name="size" value=""/>
-<property name="formula" value="={child_bigDecimal2} "/>
+<property name="formula" value="={child_bigInteger2} "/>
 <property name="rangeFormula" value=""/>
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
@@ -114,7 +114,7 @@
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;bigInteger2 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;bigInteger2 (child)quot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
@@ -179,7 +179,7 @@
 <property name="groupWithPrevious" value="true"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;date2 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;enquot;,quot;date2 (child)quot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
