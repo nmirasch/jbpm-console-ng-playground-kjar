@@ -29,13 +29,13 @@
 <property name="htmlContent" value="quot;enquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;RANGE VALUES&lt;/div&gt; quot;quot;esquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;RANGE VALUES&lt;/div&gt; quot;"/>
 </field>
 <field position="3" name="child_bigDecimal1" type="InputTextBigDecimal" id="1761388950">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;bigDecimal1 (child)quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;bigDecimal1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;bigDecimal1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;bigDecimal2 with only one decimalquot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
@@ -45,6 +45,7 @@
 <property name="pattern" value="###.#"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/bigDecimal1"/>
 </field>
@@ -89,13 +90,13 @@
 <property name="outputBinding" value="child/bigDecimal3"/>
 </field>
 <field position="6" name="child_bigInteger1" type="InputTextBigInteger" id="571561777">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;bigInteger1 (child)quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;bigInteger1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
@@ -105,6 +106,7 @@
 <property name="pattern" value=""/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/bigInteger1"/>
 </field>
@@ -149,8 +151,17 @@
 <property name="outputBinding" value="child/bigInteger3"/>
 </field>
 <field position="9" name="child_boolean1" type="CheckBox" id="2102021483">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;boolean1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;boolean1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;boolean1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/boolean1"/>
 </field>
@@ -169,8 +180,19 @@
 <property name="outputBinding" value="child/boolean3"/>
 </field>
 <field position="12" name="child_date1" type="InputDate" id="1626926054">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;date1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;date1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;date1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/date1"/>
 </field>
@@ -200,12 +222,12 @@
 <property name="outputBinding" value="child/date3"/>
 </field>
 <field position="15" name="child_double1" type="InputTextDouble" id="1292263445">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;double1 (child)quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;double1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;double1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
@@ -260,13 +282,13 @@
 <property name="outputBinding" value="child/double3"/>
 </field>
 <field position="18" name="child_float1" type="InputTextFloat" id="205927423">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value=""/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;enquot;,quot;float1 (child)quot;quot;esquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;float1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;float1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="disabled" value="false"/>
 <property name="readonly" value="false"/>
@@ -276,6 +298,7 @@
 <property name="pattern" value="###.#"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/float1"/>
 </field>
@@ -320,8 +343,20 @@
 <property name="outputBinding" value="child/float3"/>
 </field>
 <field position="21" name="child_integer1" type="InputTextInteger" id="677193640">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;integer1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;integer1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;integer1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/integer1"/>
 </field>
@@ -364,8 +399,20 @@
 <property name="outputBinding" value="child/integer3"/>
 </field>
 <field position="24" name="child_long1" type="InputTextLong" id="949301485">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;long1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;long1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;long1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/long1"/>
 </field>
@@ -408,8 +455,20 @@
 <property name="outputBinding" value="child/long3"/>
 </field>
 <field position="27" name="child_short1" type="InputTextShort" id="1462193167">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;short1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;short1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;short1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/short1"/>
 </field>
@@ -454,8 +513,23 @@
 <property name="outputBinding" value="child/short3"/>
 </field>
 <field position="30" name="child_string1" type="InputText" id="1651171201">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;string1 (child)quot;"/>
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;string1 (child)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;string1 (child) is requiredquot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="size" value=""/>
+<property name="formula" value=""/>
+<property name="rangeFormula" value=""/>
+<property name="pattern" value=""/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value="child/string1"/>
 </field>
