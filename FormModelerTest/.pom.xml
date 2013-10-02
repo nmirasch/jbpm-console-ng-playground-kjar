@@ -8,7 +8,7 @@
     <int>16</int>
     <int>6</int>
     <string>fileKey</string>
-    <string>AnyObjectId[8876a3fad1f5b5c3a4b74dd7e99267119868ab9f]</string>
+    <string>AnyObjectId[0204fcc29c0f453564b32871bef76d6072d2aba9]</string>
     <string>isDirectory</string>
     <boolean>false</boolean>
     <string>isOther</string>
@@ -18,6 +18,6 @@
     <string>isRegularFile</string>
     <boolean>true</boolean>
     <string>size</string>
-    <long>786</long>
+    <long>6066</long>
   </map>
 </org.kie.commons.java.nio.base.Properties>

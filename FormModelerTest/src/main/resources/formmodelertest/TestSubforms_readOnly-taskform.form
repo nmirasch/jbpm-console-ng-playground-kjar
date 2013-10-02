@@ -1,40 +1,99 @@
 
-<form id="1814626112">
+<form id="1076922577">
 <property name="subject" value=""/>
 <property name="name" value="TestSubforms_readOnly-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="2" name="childDetails_child" type="Subform" id="461338277">
+<field position="2" name="childDetails_childs1" type="MultipleSubform" id="1257403614">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
 <property name="labelCSSClass" value=""/>
 <property name="labelCSSStyle" value=""/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;child (childDetails)quot;quot;esquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;childs1 (childDetails)quot;quot;esquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="styleclass" value=""/>
 <property name="cssStyle" value=""/>
-<property name="inputBinding" value="in_child/child"/>
-<property name="outputBinding" value="out_child/child"/>
+<property name="inputBinding" value="in_child/childs1"/>
+<property name="outputBinding" value="out_child/childs1"/>
 <property name="defaultSubform" value="SimpleChild.form"/>
+<property name="previewSubform" value=""/>
+<property name="tableSubform" value=""/>
+<property name="newItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="addItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="false"/>
+<property name="enableTableEnterData" value="false"/>
 </field>
-<field position="1" name="childDetails_identifier" type="InputText" id="2082037004">
+<field position="4" name="childDetails_childs2" type="MultipleSubform" id="1098415690">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;identifier (childDetails)quot;"/>
-<property name="inputBinding" value="in_child/identifier"/>
-<property name="outputBinding" value="out_child/identifier"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;childs2 (childDetails) Expandedquot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="in_child/childs2"/>
+<property name="outputBinding" value="out_child/childs2"/>
+<property name="defaultSubform" value="SimpleChild.form"/>
+<property name="previewSubform" value=""/>
+<property name="tableSubform" value=""/>
+<property name="newItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="addItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="deleteItems" value="false"/>
+<property name="updateItems" value="false"/>
+<property name="visualizeItems" value="false"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="true"/>
+<property name="enableTableEnterData" value="true"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1471729676">
+<field position="1" name="childDetails_simple_child1" type="Subform" id="1514444305">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;simple_child1 (childDetails)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="in_child/simple_child1"/>
+<property name="outputBinding" value="out_child/simple_child1"/>
+<property name="defaultSubform" value="SimpleChild.form"/>
+</field>
+<field position="3" name="childDetails_simple_child2" type="Subform" id="1484947319">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;enquot;,quot;simple_child2 (childDetails)quot;quot;esquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="title" value="quot;enquot;,quot;quot;quot;esquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value="in_child/simple_child2"/>
+<property name="outputBinding" value="out_child/simple_child2"/>
+<property name="defaultSubform" value="SimpleChild.form"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="55372330">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value=""/>
 <property name="inputBinding" value=""/>
 <property name="outputBinding" value=""/>
-<property name="htmlContent" value="quot;enquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;READ ONLY SUBFORM&lt;/h2&gt;
-quot;quot;esquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;READ ONLY SUBFORM&lt;/h2&gt;
+<property name="htmlContent" value="quot;enquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;Read Only&lt;/h2&gt;
+quot;quot;esquot;,quot;&lt;h2 style=&quot;background: none repeat scroll 0% 0% rgb(238, 238, 238); border: 1px solid rgb(204, 204, 204); padding: 5px 10px;&quot;&gt;Read Only&lt;/h2&gt;
 quot;"/>
 </field>
-<dataHolder inputId="in_child" name="#0000A0" type="dataModelerEntry" outId="out_child" value="formmodelertest.ChildDetails" id="childDetails"/>
+<dataHolder inputId="in_child" name="#0000A0" type="dataModelerEntry" outId="out_child" value="formmodelertest.Father" id="childDetails"/>
 </form>

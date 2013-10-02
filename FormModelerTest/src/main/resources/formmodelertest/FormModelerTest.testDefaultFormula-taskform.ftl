@@ -48,19 +48,8 @@
 	function taskFormValidator() {
 		var i=0;
 		var myInputs = new Array();
-					myInputs[i] = document.getElementById("out_child");
-					i++;
-
 
 		var j=0;
-						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid out_child");
-							myInputs[j].focus();
-							return false;
-						}
-			
-					j++;
-
 		return true;
 	}
 </script>
@@ -211,48 +200,12 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: testSubforms.TestSubforms_readOnly
+		New Process Instance: /FormModelerTest/src/main/resources/formmodelertest.testDefaultFormula
 	</div>
 	<div id="content">
 		<fieldset>
-            <legend>Task Info</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
-											katy
-            	
-            	</div>
-            	<label for="name">Actor ID</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"></div>
-            <div class="clear"></div>
-          </fieldset>
-
-		<fieldset>
-            <legend>Task Inputs</legend>
-                            		<label for="name">in_child</label>
-                            		<div class="div_checkbox">
-                              		${in_child}
-                            		</div>
-
-            <div class="clear"></div>
-          </fieldset>
-
-          <fieldset>
-            <legend>Task Outputs</legend>
+            <legend>Process inputs</legend>
             <form action="complete" method="POST" enctype="multipart/form-data" onsubmit="return taskFormValidator()">
-                            		<label for="name">out_child</label>
-                            		<div class="div_texbox">
-                              		<input name="out_child" type="text" class="textbox" id="out_child" value="" />
-                            		</div>
-              	
-
               <div class="button_div">
                 <input name="Submit" type="submit" value="Submit" class="buttons" />
               </div>

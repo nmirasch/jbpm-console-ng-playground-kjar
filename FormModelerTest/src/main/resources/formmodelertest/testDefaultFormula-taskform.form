@@ -1,0 +1,86 @@
+
+<form id="957771650">
+<property name="subject" value=""/>
+<property name="name" value="testDefaultFormula-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="child_ch_bigDec" type="InputTextBigDecimal" id="1041356650">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_bigDec (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_bigDec"/>
+<property name="outputBinding" value="out_child/ch_bigDec"/>
+</field>
+<field position="1" name="child_ch_bigInt" type="InputTextBigInteger" id="1722454174">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_bigInt (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_bigInt"/>
+<property name="outputBinding" value="out_child/ch_bigInt"/>
+</field>
+<field position="2" name="child_ch_boolean" type="CheckBox" id="236901128">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_boolean (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_boolean"/>
+<property name="outputBinding" value="out_child/ch_boolean"/>
+</field>
+<field position="3" name="child_ch_date" type="InputDate" id="35468765">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_date (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_date"/>
+<property name="outputBinding" value="out_child/ch_date"/>
+</field>
+<field position="4" name="child_ch_double" type="InputTextDouble" id="1982350363">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_double (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_double"/>
+<property name="outputBinding" value="out_child/ch_double"/>
+</field>
+<field position="5" name="child_ch_email" type="InputText" id="652998351">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_email (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_email"/>
+<property name="outputBinding" value="out_child/ch_email"/>
+</field>
+<field position="6" name="child_ch_float" type="InputTextFloat" id="1845938274">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_float (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_float"/>
+<property name="outputBinding" value="out_child/ch_float"/>
+</field>
+<field position="7" name="child_ch_integer" type="InputTextInteger" id="222589540">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_integer (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_integer"/>
+<property name="outputBinding" value="out_child/ch_integer"/>
+</field>
+<field position="8" name="child_ch_long" type="InputTextLong" id="1634781015">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_long (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_long"/>
+<property name="outputBinding" value="out_child/ch_long"/>
+</field>
+<field position="9" name="child_ch_longText" type="InputText" id="969158438">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_longText (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_longText"/>
+<property name="outputBinding" value="out_child/ch_longText"/>
+</field>
+<field position="10" name="child_ch_short" type="InputTextShort" id="1077546070">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_short (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_short"/>
+<property name="outputBinding" value="out_child/ch_short"/>
+</field>
+<field position="11" name="child_ch_shortDate" type="InputDate" id="687786834">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_shortDate (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_shortDate"/>
+<property name="outputBinding" value="out_child/ch_shortDate"/>
+</field>
+<field position="12" name="child_ch_str" type="InputText" id="900608883">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_str (child)quot;"/>
+<property name="inputBinding" value="in_child/ch_str"/>
+<property name="outputBinding" value="out_child/ch_str"/>
+</field>
+<dataHolder inputId="in_child" name="#0000A0" type="dataModelerEntry" outId="out_child" value="formmodelertest.Child" id="child"/>
+</form>
