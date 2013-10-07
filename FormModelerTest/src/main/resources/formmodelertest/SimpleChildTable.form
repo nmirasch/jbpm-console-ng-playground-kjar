@@ -1,0 +1,26 @@
+
+<form id="545230797">
+<property name="subject" value=""/>
+<property name="name" value="SimpleChildTable.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="id_hijo_ch_str" type="InputText" id="1587395224">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_str (id_hijo)quot;"/>
+<property name="inputBinding" value="in_hijo/ch_str"/>
+<property name="outputBinding" value="out_hijo/ch_str"/>
+</field>
+<field position="1" name="id_hijo_ch_integer" type="InputTextInteger" id="314194216">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_integer (id_hijo)quot;"/>
+<property name="inputBinding" value="in_hijo/ch_integer"/>
+<property name="outputBinding" value="out_hijo/ch_integer"/>
+</field>
+<field position="2" name="id_hijo_ch_double" type="InputTextDouble" id="100385345">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ch_double (id_hijo)quot;"/>
+<property name="inputBinding" value="in_hijo/ch_double"/>
+<property name="outputBinding" value="out_hijo/ch_double"/>
+</field>
+<dataHolder inputId="in_hijo" name="#A7E690" type="dataModelerEntry" outId="out_hijo" value="formmodelertest.Child" id="id_hijo"/>
+</form>
