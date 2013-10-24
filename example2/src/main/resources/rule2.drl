@@ -1,0 +1,8 @@
+rule 'rule2'
+
+when
+	Shape()
+then
+	//actions
+
+end

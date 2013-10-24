@@ -1,0 +1,8 @@
+rule 'rule1'
+
+when
+	//conditions
+then
+	//actions
+
+end

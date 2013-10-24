@@ -1,0 +1,8 @@
+rule 'rule - after renaming'
+
+when
+	Person()
+then
+	//actions
+
+end

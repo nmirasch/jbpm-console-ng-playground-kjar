@@ -1,0 +1,6 @@
+rule "BRL in category"
+	dialect "mvel"
+	when
+		Person( )
+	then
+end

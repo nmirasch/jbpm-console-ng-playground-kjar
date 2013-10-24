@@ -1,0 +1,8 @@
+rule 'rule - before renaming'
+
+when
+	//conditions
+then
+	//actions
+
+end
