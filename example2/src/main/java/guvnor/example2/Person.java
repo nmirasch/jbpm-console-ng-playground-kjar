@@ -6,11 +6,45 @@ package guvnor.example2;
 public class Person  implements java.io.Serializable {
 
 static final long serialVersionUID = 1L;
+    
+    private java.util.Date birthDay;
+    
+    private String name1;
+    
+    private String surname1;
 
     public Person() {
     }
 
+    public Person(java.util.Date birthDay, String name1, String surname1) {
+        this.birthDay = birthDay;
+        this.name1 = name1;
+        this.surname1 = surname1;
+    }
 
 
+    
+    public java.util.Date getBirthDay() {
+        return this.birthDay;
+    }
 
+    public void setBirthDay(  java.util.Date birthDay ) {
+        this.birthDay = birthDay;
+    }
+    
+    public String getName1() {
+        return this.name1;
+    }
+
+    public void setName1(  String name1 ) {
+        this.name1 = name1;
+    }
+    
+    public String getSurname1() {
+        return this.surname1;
+    }
+
+    public void setSurname1(  String surname1 ) {
+        this.surname1 = surname1;
+    }
 }

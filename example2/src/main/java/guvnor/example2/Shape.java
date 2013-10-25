@@ -6,11 +6,23 @@ package guvnor.example2;
 public class Shape  implements java.io.Serializable {
 
 static final long serialVersionUID = 1L;
+    
+    private String shapeName;
 
     public Shape() {
     }
 
+    public Shape(String shapeName) {
+        this.shapeName = shapeName;
+    }
 
 
+    
+    public String getShapeName() {
+        return this.shapeName;
+    }
 
+    public void setShapeName(  String shapeName ) {
+        this.shapeName = shapeName;
+    }
 }
