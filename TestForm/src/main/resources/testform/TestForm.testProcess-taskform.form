@@ -1,0 +1,22 @@
+
+<form id="1366923420">
+<property name="subject" value=""/>
+<property name="name" value="TestForm.testProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="invoice_campo2" type="InputText" id="6850707">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo2 (invoice)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="invoice/campo2"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="invoice_campo1" type="InputText" id="1693542694">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campo1 (invoice)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="invoice/campo1"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder name="#0000A0" type="dataModelerEntry" outId="invoice" value="testform.Invoice" id="invoice"/>
+</form>
